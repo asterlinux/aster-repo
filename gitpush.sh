@@ -6,4 +6,4 @@ echo "Enter your commit"
 read input
 
 git commit -m "$input"
-git push -u origin master
+git push -u origin main
