@@ -17,11 +17,11 @@ for name in $(ls *.tar.zst); do
 done
 
 repo-add -n -R -v -s aster-repo.db.tar.gz *.pkg.tar.zst
-rm -v aster-repo.db
-rm -v aster-repo.db.sig
-rm -v aster-repo.files
-rm -v aster-repo.files.sig
-mv -v aster-repo.db.tar.gz aster-repo.db
-mv -v aster-repo.db.tar.gz.sig aster-repo.db.sig
-mv -v aster-repo.files.tar.gz aster-repo.files
-mv -v aster-repo.files.tar.gz.sig aster-repo.files.sig
+rm aster-repo.db
+rm aster-repo.db.sig
+rm aster-repo.files
+rm aster-repo.files.sig
+mv aster-repo.db.tar.gz aster-repo.db
+mv aster-repo.db.tar.gz.sig aster-repo.db.sig
+mv aster-repo.files.tar.gz aster-repo.files
+mv aster-repo.files.tar.gz.sig aster-repo.files.sig
