@@ -2,8 +2,6 @@
 
 git add .
 
-echo "Enter your commit"
-read input
 
-git commit -m "$input"
+git commit -m "new pkgs"
 git push -u origin main
